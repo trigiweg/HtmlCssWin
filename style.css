@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,h1 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 
+*,*::before,*after{
+	font-family: Castoro;
+	 
+} */
+
+body {
+	font-family: 'Castoro', serif; 
+   }
+
+.container {
+	/* 使用 max-width 可以自適應瀏覽器畫面寬度*/
+	max-width: 1296px;
+	margin: 0 auto;
+}  
+
+.header h1{
+	font-size: 128px; 
+	margin-right: 65%;
+	padding-top: 160px;  
+	margin-bottom: 50px;
+	text-align: right;
+}
+
+.header img{
+	width: 636px;
+	height: 848px; 
+	margin:auto;
+	display: block;
+	margin-bottom: 50px;
+}
+
+.header h2{
+	font-size: 128px; 
+	margin-left: 50%;  
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+.middle_content{
+	background-color: #EFEFEF; 
+	margin-bottom: 50px;
+}
+
+.middle_layout{
+	width: 636px;
+	height: 192px;
+	margin-left:50%;
+	padding-right: 100px;
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.middle_content .middle_p{
+	font-size: 32px; 
+}
+
+.bottom_content{
+	display: block;
+	margin-left: 18%; 
+}
+
+h3{
+	font-size: 40px;
+	color: #AE0000;
+	border-bottom: 3px solid #AE0000;
+	width: 636px;
+	line-height: 60px;
+	margin-bottom: 10px;
+	margin-top: 20px; 
+}
+ 
+.bottom_content a{
+	color: black;
+	font-size: 24px;	
+	text-decoration: none;
+	line-height: 36px;
+}
+
+.bottom_content a:hover{
+	color:blue;
+}
+
+.bottom_content .p_title{
+	color:#949494;
+	font-size: 20px;
+	line-height: 30px;
+	font-style: italic;
+}
+
+.footer_content{
+	display: block;
+	height: 117px; 
+	text-align: center;
+	margin:auto;
+	margin-top: 150px;
+	background-color: black;
+	padding-top: 75px;
+}
+
+.footer_content img{
+	margin-right: 40px;
+	vertical-align: middle;
+}
+ 
